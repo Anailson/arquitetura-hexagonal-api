@@ -1,13 +1,11 @@
 package br.hexagonal.acesso.api.core.ports;
 
+import br.hexagonal.acesso.api.core.domain.Morador;
 
-import br.hexagonal.acesso.api.core.domain.Usuario;
 
+public interface MoradorServicePort {
 
-public interface UsuarioServicePort {
-
-    Usuario createUsuario(Usuario usuario);
-
+    Morador creatMorador(Morador morador);
 
 }
 
